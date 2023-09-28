@@ -1,4 +1,4 @@
-import Image1 from '../../assets/Netflixclone.jpg'
+import Image1 from '../../assets/netflixclone.jpg'
 import Image2 from '../../assets/wixsite.jpg'
 import Image3 from '../../assets/facts.jpg'
 //import Image4 from '../../assets/project4.jpg'
