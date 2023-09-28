@@ -1,94 +1,39 @@
-import Image1 from '../../assets/project1.jpg'
-import Image2 from '../../assets/project2.jpg'
-import Image3 from '../../assets/project3.jpg'
-import Image4 from '../../assets/project4.jpg'
-import Image5 from '../../assets/project5.jpg'
-import Image6 from '../../assets/project6.jpg'
-import Image7 from '../../assets/project7.jpg'
-import Image8 from '../../assets/project8.jpg'
-import Image9 from '../../assets/project9.jpg'
+import Image1 from '../../assets/Netflixclone.jpg'
+import Image2 from '../../assets/wixsite.jpg'
+import Image3 from '../../assets/facts.jpg'
+//import Image4 from '../../assets/project4.jpg'
+//import Image5 from '../../assets/project5.jpg'
+//import Image6 from '../../assets/project6.jpg'
+//import Image7 from '../../assets/project7.jpg'
+//import Image8 from '../../assets/project8.jpg'
+//import Image9 from '../../assets/project9.jpg'
 
 const data = [
     {
         id: 1,
-        category: 'uiux',
+        category: 'frontend',
         image: Image1,
-        title: "Project Title One (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Netflix Clone using React (Frontend - Responsive)",
+        desc: "Experience the magic of a Netflix clone project brought to life through React.js on the frontend, seamlessly integrated with API calls to the TMDb database. Explore an immersive user interface, discover trending content, and watch trailers, all designed to deliver an authentic streaming experience.",
+        demo: 'https://netflix-clone-fidha.netlify.app',
+        github: 'https://github.com/fidhahadi/Netflix-clone-React'
     },
     {
         id: 2,
         category: 'frontend',
         image: Image2,
-        title: "Project Title Two (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        title: "Static website using Wix (Frontend)",
+        desc: "Explore the exquisite world of Sona Crockery through our Wix-powered static website. Immerse yourself in the beauty of our carefully curated collection of elegant crockery and dining essentials. From fine china to contemporary tableware, our site offers a glimpse into the art of dining with style. ",
+        demo: 'https://fidhahadi.wixsite.com/sona-crockery'
     },
     {
         id: 3,
-        category: 'frontend',
-        image: Image3,
-        title: "Project Title Three (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 4,
-        category: 'uiux',
-        image: Image4,
-        title: "Project Title Four (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 5,
-        category: 'uiux',
-        image: Image5,
-        title: "Project Title Five (UIUX)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 6,
-        category: 'frontend',
-        image: Image6,
-        title: "Project Title Six (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 7,
-        category: 'frontend',
-        image: Image7,
-        title: "Project Title Seven (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 8,
         category: 'backend',
-        image: Image8,
-        title: "Project Title Eight (Backend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
-    },
-    {
-        id: 9,
-        category: 'frontend',
-        image: Image9,
-        title: "Project Title Nine (Frontend)",
-        desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
-        demo: 'http://egatortutorials.com',
-        github: 'https://github.com/egattor'
+        image: Image3,
+        title: "Facts from the World (Fullstack)",
+        desc: "Welcome to 'Facts from the World,' your one-stop destination for fascinating insights and knowledge. This fullstack application is a testament to the power of React.js on the frontend and Supabase as our trusty database backend. 'Facts from the World' is where learning and discovery converge.",
+        demo: 'https://today-i-learned-facts-fidha.netlify.app',
+        github: 'https://github.com/fidhahadi/today-i-learned'
     }
 ]
 
