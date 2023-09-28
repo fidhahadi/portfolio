@@ -16,8 +16,14 @@
 .header__cta {
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 1.2rem;
 }
+/* .about-container{
+    width: 50rem;
+    text-align: center;
+    margin: 0.6rem 0 2rem;
+} */
 
 .about__portrait:hover {
     border-width: 0;

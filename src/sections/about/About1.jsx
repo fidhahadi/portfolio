@@ -8,6 +8,7 @@ import './about.css'
 const About1 = () => {
     return (
         <section id="about" data-aos="fade-in">
+
             <h2>About Me</h2>
             <p>
                 👋 Hello! I'm Fidha, a passionate software developer with a strong affinity for cutting-edge technologies, particularly in the world of web development. I specialize in crafting delightful and efficient user experiences using the React library and the MERN (MongoDB, Express.js, React, Node.js) stack.</p>
