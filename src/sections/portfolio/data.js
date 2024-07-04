@@ -1,6 +1,8 @@
 import Image1 from '../../assets/netflixclone.jpg'
 import Image2 from '../../assets/wixsite.jpg'
 import Image3 from '../../assets/facts.jpg'
+import Image4 from '../../assets/omnifood.png'
+
 //import Image4 from '../../assets/project4.jpg'
 //import Image5 from '../../assets/project5.jpg'
 //import Image6 from '../../assets/project6.jpg'
@@ -25,6 +27,14 @@ const data = [
         title: "Static website using Wix (Frontend)",
         desc: "Explore the exquisite world of Sona Crockery through our Wix-powered static website. Immerse yourself in the beauty of our carefully curated collection of elegant crockery and dining essentials. From fine china to contemporary tableware, our site offers a glimpse into the art of dining with style. ",
         demo: 'https://fidhahadi.wixsite.com/sona-crockery'
+    },
+    {
+        id: 2,
+        category: 'frontend',
+        image: Image4,
+        title: "Static website using HTML and CSS only",
+        desc: "The smart 365-days-per-year food subscription website that will make you eat healthy again. Tailored to your personal tastes and nutritional needs.",
+        demo: 'https://omnifood-fidha.netlify.app/'
     },
     {
         id: 3,
